@@ -18,5 +18,6 @@ https://github.com/user-attachments/assets/37b7e713-2edd-4068-962a-7edb76b26041
 
 ### Set default values
 
+![time_savings](https://github.com/user-attachments/assets/a728c1f0-6eb1-4b29-b3ee-be0839b9be60)
 
 
