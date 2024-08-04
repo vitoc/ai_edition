@@ -20,18 +20,18 @@ https://github.com/user-attachments/assets/37b7e713-2edd-4068-962a-7edb76b26041
 
 ![time_savings](https://github.com/user-attachments/assets/a728c1f0-6eb1-4b29-b3ee-be0839b9be60)
 
-### Library / package / module discovery and regular expression generation
+### Library / package / module discovery and regular expressions generation
 
 In the midst of naturally leveraging GitHub Copilot, you can discover new libraries / tokens without having to leave your IDE.
 
 For example, 
 
-Prompt 1: Create a function to parse april.txt into 4 tokens
+Prompt 1: Create a function to tokenize april.txt into 4 transactions
 
 Code part of response:
 
 ```
-def parse_april(lines):
+def tokenize(lines):
     transactions = []
     for i in range(0, len(lines), 7):
         date = lines[i].strip()
@@ -53,7 +53,7 @@ Code part of response:
 ```
 import re
 
-def parse_april(text):
+def tokenize(text):
     pattern = re.compile(
         r'(\d{2}/\d{2}/\d{4})\n'  # Date 1
         r'(\d{2}/\d{2}/\d{4})\n'  # Date 2
